@@ -133,3 +133,15 @@ img {
     width: auto;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .text-center .row {
+    flex-direction: column;
+  }
+  .lessons .col {
+    width: 100%;
+  }
+  .steps .col {
+    width: 100%;
+  }
+}
